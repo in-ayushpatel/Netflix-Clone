@@ -10,7 +10,7 @@ let d = new Date();
 
 // to fetch month and date
 let month_start = d.getMonth()+2;
-let date_start =d.getDate()-1; 
+let date_start =d.getDate(); 
 
 let month_end = d.getMonth()+3;
 
