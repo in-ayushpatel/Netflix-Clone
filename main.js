@@ -4,6 +4,8 @@
 
 var date_e1 = document.getElementById("start-date");
 var date_e2 = document.getElementById("end-date");
+var date_dd = document.getElementById("dd");
+
 const zero = '0';
 
 let d = new Date();
@@ -29,6 +31,8 @@ if(date_start.toString().length==1){
 date_e1.innerHTML = date_start+' / '+ month_start ;
 
 date_e2.innerHTML = date_start+' / '+ month_end ;
+
+date_dd.innerHTML = date_start+' / '+ month_start ;
 
 
 // for accordion
